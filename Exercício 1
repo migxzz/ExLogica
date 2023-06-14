@@ -1,0 +1,20 @@
+Exercício 1) 
+#include <stdio.h>	
+main() {
+int C[10];
+int i;
+	printf("Digite os valores do vetor C:\n");
+		for(i=0;i<10;i++){
+			scanf("%d", &C[i]);
+			printf("C[%d]=%d\n",i,C[i]);
+		}
+		for(i=0;i<10;i++){
+			if (C[i]<0){
+			C[i]=0;
+			}
+}
+	printf("Vetor modificado:\n");
+	for(i=0;i<10;i++){
+		printf("C[%d]:%d", i, C[i]);
+	}	
+}
